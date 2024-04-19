@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_project.css">
+    <title>sistema gestion de planes horarios</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <img id="logo" src="C:\Users\erend\Downloads\LogoSize_Favicon_ByTailorBrands\logo_size.jpg" alt="">
+            <div id="titulo">SISTEMA DE GENERACION DE PLANES HORARIOS</div>
+            
+            <select id="opciones1" name="op1">
+                <option value="opcion1"> </option>
+                <option value="opcion1">Opción 1 </option>
+            </select>
+            <select id="opciones2" name="op2">
+                <option value="opcion2"> </option>
+                <option value="opcion2">Numero materias</option>
+                <option value="opcion3">1</option>
+                <option value="opcion4">2</option>
+                <option value="opcion5">3</option>
+                <option value="opcion6">4</option>
+                <option value="opcion6">5</option>
+                <option value="opcion6">6</option>
+                <option value="opcion6">7</option>
+            </select>
+        </header>
+      <br>
+        
+        <div>
+            <table style="border: 10px solid rgb(80, 249, 255)" >
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miercoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                        <th>Sabado</th>
+                        <th>Domingo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>7:00-8:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>8:00-9:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>9:00-10:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>10:00-11:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:00-12:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>12:00-13:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>13:00-14:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>14:00-15:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>15:00-16:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>16:00-17:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>17:00-18:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>18:00-19:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>19:00-20:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>20:00-21:00</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+            
+    
+
+    
+        
+        <script>
+            function agregarFila() {
+                var table = document.getElementById("tabla");
+                var row = table.insertRow(-1); 
+                for (var i = 0; i < 4; i++) {
+                    var cell = row.insertCell(i); 
+                    cell.contentEditable = true; 
+                }
+            }
+        </script>
+        <br>
+        <main>
+            <section>
+                <input id= "generar" type="button" value="GENERAR">
+                <input id= "editar" type="button" value="EDITAR">
+            </section>
+           <section>
+            <table class="tabla_1">
+                <thead>
+                    <tr>
+                        <th>
+                            GRUPOS QUE PRIORIZAR
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                          
+                        </td>
+                    </tr>
+    
+                </tbody>
+            </table>
+           </section>
+    
+        </main>
+    
+        <select id="materiales" name="op3">
+            <option value="1"> </option>
+            <option value="2">Lenguajes de Interfaz -A </option>
+            <option value="3">semestre 2 </option>
+            <option value="4">semestre 3 </option>
+            <option value="5">semestre 4 </option>
+            <option value="6">semestre 5</option>
+            <option value="7">semestre 6 </option>
+            <option value="8">semestre 7 </option>
+            <option value="9">semestre 8 </option>
+            <option value="10">semestre 9</option>
+        </select>
+    
+        <br>
+        <main>
+            <select id="semestres" name="op1">
+                <option value="1"> </option>
+                <option value="2">semestre 1 </option>
+                <option value="3">semestre 2 </option>
+                <option value="4">semestre 3 </option>
+                <option value="5">semestre 4 </option>
+                <option value="6">semestre 5</option>
+                <option value="7">semestre 6 </option>
+                <option value="8">semestre 7 </option>
+                <option value="9">semestre 8 </option>
+                <option value="10">semestre 9</option>
+            </select>
+        
+            <div id="materias"><strong> MATERIAS DISPONIBLES</strong></div>
+    
+        </main>
+        
+    
+        <table class="tabla_2">
+            <thead>
+            <tr>
+                <th style="color: black;"></th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+    
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    
+</body>
+</html>

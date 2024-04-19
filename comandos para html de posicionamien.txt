@@ -1,0 +1,12 @@
+comandos para html de posicionamiento
+position: Esta propiedad especifica el método de posicionamiento utilizado para un elemento. Los valores más comunes son:
+
+static: El elemento se posiciona de acuerdo con el flujo normal del documento.
+relative: El elemento se posiciona de acuerdo con su posición normal, y luego se ajusta mediante las propiedades top, right, bottom y left.
+absolute: El elemento se posiciona de forma absoluta con respecto a su primer ancestro posicionado (es decir, un elemento cuya propiedad position no sea static).
+fixed: El elemento se posiciona de forma absoluta con respecto a la ventana del navegador, por lo que permanece fijo incluso al hacer scroll.
+z-index: Esta propiedad especifica el orden de apilamiento de un elemento posicionado junto con sus elementos hermanos. Un valor mayor de z-index sitúa un elemento por encima de otro.
+
+float: Esta propiedad posiciona un elemento a la izquierda o a la derecha de su contenedor, permitiendo que otros elementos fluyan alrededor de él.
+
+clear: Esta propiedad especifica si un elemento debe estar al lado (o no) de elementos flotantes que lo preceden.

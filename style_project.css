@@ -1,0 +1,141 @@
+    body{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+    #logo {
+        position: absolute; 
+        top: 30px; 
+        right: 40px; 
+        width: 250px; 
+        height: 200px; 
+        margin-top: 10px;
+    }
+    #titulo {
+        position: absolute; 
+        top: 0; 
+        left: 110px; 
+        font-size: 18px; 
+        color:#333; 
+        margin-top: 120px;
+        font-style: normal;
+    }
+    #opciones1 {
+        position: absolute;  
+        left: 110px; 
+        font-size: 10px; 
+        color:#333; 
+        top: 150px;
+        font-style: normal;
+        width: 200px;
+        cursor: pointer;
+    }
+    #opciones2 {
+        cursor: pointer;
+        position: absolute;  
+        left: 350px; 
+        font-size: 10px; 
+        color:#333; 
+        top: 150px;
+        font-style: normal;
+        width: 200px;
+    }
+    table {
+        position: absolute;
+        top: 250px ;
+        border-collapse: collapse;
+        width: 90%;
+        left: 5%;
+        color: rgb(2, 2, 2);
+        border: solid;
+        height: 100px;
+    }
+    table, th, td {
+        border: 1px solid black;
+        padding: 5px;
+    }
+    
+    #generar {
+        position: absolute;
+        width: 300px;
+        top: 800px;
+        left: 50px;
+        background-color: rgb(23, 247, 232); 
+        color: rgba(8, 8, 8, 0.904); 
+        border: none; 
+        padding: 15px 20px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        cursor: pointer; 
+        border-radius: 15px;
+       
+    }
+    #editar {
+        position: absolute;
+        width: 300px;
+        top: 800px;
+        left: 400px;
+        background-color: rgb(23, 247, 232); 
+        color: rgba(8, 8, 8, 0.904); 
+        border: none; 
+        padding: 15px 20px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        cursor: pointer; 
+        border-radius: 15px;
+       
+    }
+ 
+    #materias{
+        position: absolute;
+        top: 145%;
+        right: 20%;
+    }
+    #semestres{
+        position: absolute;
+        cursor: pointer;
+        top: 145%;
+        right: 37.5%;
+        width: 12%;
+    }
+    #materiales{
+        position: absolute;
+        cursor: pointer;
+        top: 110%;
+        right: 25%;
+        width: 15%;
+    }
+    .tabla_1{
+        position: absolute;
+        top: 100%;
+        border: 1px solid;
+        color: rgb(0, 0, 1);
+        width: 40%;
+        height: 30%;
+        left: 50%;
+        
+    }
+    .tabla_2{
+        position: absolute;
+        border: 1px solid;
+        top: 150%;
+        color: rgb(0, 0, 0);
+        width: 40%;
+        left: 50%;
+        height: 30%;
+        
+    }
+    .contenedor{
+        outline: 100%;
+        height: 200vh;
+        border: 30px solid rgb(37, 50, 122);
+
+    }
+
+    
+    

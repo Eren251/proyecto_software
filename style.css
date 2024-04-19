@@ -1,0 +1,18 @@
+h1{
+    color: #f2a297;
+}
+body{
+    color: #f8dac2;
+}
+p{
+    font-size: 20px;
+}
+.genero{
+    color: #cd1db2;
+}
+#imagenx{
+    border-radius: 50px;
+    width: 200px;
+   border: solid;
+   color: #cd1db2;
+}
